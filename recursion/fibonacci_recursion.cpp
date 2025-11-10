@@ -14,6 +14,9 @@ int fib1(int n)
 int F[10];
 
 //implementation for memoization fibonacci
+//memoization can help to store precomputed values and
+// save some time in calling those functions that 
+// have the value already calculated.
 int fib2(int n)
 {
     if(n<=1)
